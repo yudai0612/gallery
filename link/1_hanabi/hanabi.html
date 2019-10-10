@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery | 打上花火</title>
+    <link rel="stylesheet" href="koala/css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+
+    <!--p5.js-->
+    <script src="../../libraries/p5.js"></script>
+    <!-- jQuery -->
+    <script src="../../libraries/jQuery.js"></script>
+
+</head>
+<body>
+    <header>
+        <a href="https://yudai0612.github.io/gallery"><img class="homeBtn" src="images/home.png"></a>
+
+        <div class="clear"></div>
+    </header>
+
+    <div class="wrapper">
+
+        <div id="container0">
+            <img src="images/mask.png" id="mask">
+
+            <div id="container1"></div>
+        </div>
+
+        <div class="contentsWrapper">
+            <p class="title">『打上花火』</p>
+
+            <div class="introduce">
+                <font size="5">花</font>火大会を少し離れた静かな場所から見ているような物哀しさを、アニメーション付きのイラストにした作品です。元の絵はこの作品を作る3年ほど前に完成しており、イラストが描き上がった当時から花火の部分はアニメーションにしようという構想がありました。花火のアニメーションはp5.jsで実装、イラストはiPadのスケッチアプリ「Tayasui Sketches」を使って指で描いています。レイヤー構造は大きく5枚に分かれていて、最背面から順に
+                <ul>
+                    <li>着物(夜空)の背景</li>
+                    <li>打ち上げ花火のキャンバス</li>
+                    <li>マスク画像</li>
+                    <li>線画・トーン</li>
+                    <li>線香花火のキャンバス</li>
+                </ul>
+                のように重なっています．
+
+                <img src="images/layer.png" class="layerImg">
+                この作品を作るにあたって、position:absoluteで絶対位置指定された要素の親が潰れてしまう現象をiQueryで解決する方法を覚えました．p5.jsで画面をリフレッシュするときに背景を白でベタ塗りするという原始的な手段を取っているのが苦しいところ...背景を透過したま複数のキャンバスを重ねて動かすことができれば表現の幅が広がりそうです。
+
+
+                <div class="used">
+                    使ったもの...
+                    <ul>
+                        <li>Tayasui Sketches</li>
+                        <li>GIMP</li>
+                        <li>p5.js</li>
+                        <li>jQuery</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="fukidashiWrapper">
+
+                <div>
+                    <img src="images/fukidashi.png" class="fukidashi">
+                    <p class="hideMessage">▼説明を表示</p>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <script src="myscript.js"></script>
+        <p>©︎ 2019 YUDAI KOSHINO</p>
+    </footer>
+
+</body>
+</html>
