@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery | 歩道橋から</title>
+    <link rel="stylesheet" href="koala/css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="../../libraries/jQuery.js"></script>
+    <!-- freezeframe.js -->
+    <script src="../../libraries/freezeframe.js-master/docs/freezeframe.min.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <a href="https://yudai0612.github.io/gallery"><img class="homeBtn" src="images/home.png"></a>
+
+        <div class="clear"></div>
+    </header>
+
+    <div class="wrapper">
+
+        <div class="parent">
+
+            <div class="container">
+                <img src="images/cg1.gif" id="cg1" width="400px">
+            </div>
+        </div>
+
+        <div class="contentsWrapper">
+            <p class="title">『歩道橋から』</p>
+
+            <div class="introduce">
+                <font size="5">写</font>真を絡めたデザイン手法で興味のあった「シネマグラフ」のサンプルを作ってみました．三脚で撮影した動画をPhotoshopに取り込み、静止させたいフレームをくり抜いてマスクにします。作り方は<a href="https://lab.sonicmoov.com/design/photoshop/photoshop-cinemagraph/">こちら</a>を参考にしました。
+                <img src="images/sample.gif" class="sample">
+                独特な動きで目を引く手法でありつつ実態は単なるGIF画像なので、簡単に実装できます。単に背景画像として利用しても良し、他のアニメーションやユーザーの動作と組み合わせても良しで、脇役でも主役でも活躍できそうです。今回はfreezeframeというJavaScriptライブラリを使って、マウスがホバーした時だけアニメーションが再生されるようにしています。
+
+                <div class="used">
+                    使ったもの...
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>freezeframe.js</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="fukidashiWrapper">
+
+                <div>
+                    <img src="images/fukidashi.png" class="fukidashi">
+                    <p class="hideMessage">▼説明を表示</p>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <script src="myscript.js"></script>
+        <p>©︎ 2019 YUDAI KOSHINO</p>
+    </footer>
+</body>
+</html>
