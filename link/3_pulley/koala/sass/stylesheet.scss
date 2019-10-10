@@ -1,0 +1,116 @@
+.clear {
+    clear: left;
+}
+
+body {
+    margin: 0 100px;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+
+    //header_______________
+    header {
+        width: 600px;
+        height: 50px;
+        margin: 0 auto;
+        border-bottom: dashed 1px rgba(0, 0, 0, 0.3);
+        padding: 0 10px;
+
+        .homeBtn {
+            height: 30px;
+            margin: 10px;
+            opacity: 0.8;
+            float: left;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    //wrapper_______________
+    .wrapper {
+        min-height: calc(100vh - 110px);
+
+        .container {
+            width: 100%;
+            margin: 50px auto;
+
+            #container0 {
+                width: 300px;
+                margin: 0 auto;
+
+                .box_srcollbar {
+                    width: 100px;
+                    overflow: auto;
+                    height: 200px;
+                    padding: 0 10px;
+                    border: 1px dashed gray;
+                    border-radius: 3px;
+                    float: left;
+                    color: gray;
+                    font-size: 10px;
+                }
+
+                #blankSpace {
+                    margin-top: 20000px;
+                }
+
+                #defaultCanvas0 {
+                    margin: 0 20px;
+                }
+            }
+        }
+
+        .contentsWrapper {
+            width: 500px;
+            margin: 20px auto;
+            color: dimgray;
+            opacity: 0.8;
+            font-family: "Sawarabi Mincho";
+
+            .fukidashiWrapper {
+                width: 100px;
+                margin: 0 auto;
+                opacity: 0.5;
+
+                .fukidashi {
+                    width: 14px;
+                    float: left;
+                    margin: 2px 10px;
+                }
+
+                .hideMessage {
+                    font-size: 10px;
+                    margin: 0;
+                    float: left;
+                }
+            }
+
+            .title {
+                text-align: center;
+                margin-bottom: 50px;
+            }
+
+            .introduce {
+                display: none;
+                font-size: 12px;
+
+                .used {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+
+    //footer_______________
+    footer {
+        width: 600px;
+        border-top: dashed 1px rgba(0, 0, 0, 0.3);
+        margin: 0 auto;
+
+        p {
+            color: rgba(0, 0, 0, 0.3);
+            font-size: 2px;
+            margin: 20px;
+        }
+    }
+}

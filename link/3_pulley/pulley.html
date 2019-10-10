@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery | 滑車のスクロールバー</title>
+    <link rel="stylesheet" href="koala/css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+
+    <!--p5.js-->
+    <script src="../../libraries/p5.js"></script>
+    <!-- jQuery -->
+    <script src="../../libraries/jQuery.js"></script>
+
+</head>
+
+
+<body>
+    <header>
+        <a href="https://yudai0612.github.io/gallery"><img class="homeBtn" src="images/home.png"></a>
+
+        <div class="clear"></div>
+    </header>
+    
+    <div class="wrapper">
+    <div class="container">
+
+        <div id="container0">
+
+            <div class="box_srcollbar">
+                <p>0%
+                    <br><br>
+                    ▼スクロールしてください
+                </p>
+                <p id="blankSpace">
+                    100%
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contentsWrapper">
+        <p class="title">『滑車のスクロールバー』</p>
+
+        <div class="introduce">
+            <font size="5">物</font>理のeラーニングサイト"P"のデザインをする上で、どうしても実装したかったのがこの機能。扱う内容が教科書である以上、一つのページで表示する内容は相当なボリュームになります。そこで、最近たまに見かける「ページスクロールに合わせてスクロール量を可視化してくれる要素」をページの隅に配置しようと思いつきました。単純なカラーバーや円グラフを表示してもいいのですが、せっかくなら茶目っ気を出して力学系をデザインに取り入れようということで、この滑車が第一弾。この他にも、ローディングアニメーションでコマが回っていたり、同じくスクロール量表示をバネにして、おもりをクリックしたらバネが縮んでページ最上部に戻るなんてのも面白そうです。
+
+            <div class="used">
+                使ったもの...
+                <ul>
+                    <li>p5.js</li>
+                    <li>jQuery</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="fukidashiWrapper">
+
+            <div>
+                <img src="images/fukidashi.png" class="fukidashi">
+                <p class="hideMessage">▼説明を表示</p>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer>
+        <script src="myscript.js"></script>
+        <p>©︎ 2019 YUDAI KOSHINO</p>
+    </footer>
+</body>
+</html>
