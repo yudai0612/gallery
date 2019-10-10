@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery | break a block /*of ice*/</title>
+    <link rel="stylesheet" href="koala/css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+
+    <!--p5.js-->
+    <script src="../../libraries/p5.js"></script>
+    <!--p5.play.js-->
+    <script src="../../libraries/p5.play-master/lib/p5.play.js"></script>
+    <!-- jQuery -->
+    <script src="../../libraries/jQuery.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <a href="https://yudai0612.github.io/gallery"><img class="homeBtn" src="images/home.png"></a>
+
+        <div class="clear"></div>
+    </header>
+
+    <div class="wrapper">
+
+        <div class="container">
+
+            <div id="container0">
+            </div>
+        </div>
+
+        <div class="contentsWrapper">
+            <p class="title">『break a block /*of ice*/』</p>
+
+            <div class="introduce">
+                <font size="5">p</font>5.play.jsのサンプルコード『<a href="https://molleindustria.github.io/p5.play/examples/index.html?fileName=breakout.js">Breakout</a>』を参考にして、ブロック崩しのプログラムを作りました。インスタンスモードでmousePressed()を使う方法がわからず苦戦しましたが、<a href="https://forum.processing.org/two/discussion/10711/unable-to-use-mousepressed-specific-to-canvas-element-instead-of-global-in-instance-mode">こちら</a>を参考にして解決できました。画像データから読み込んだRGBと座標の値を配列に格納して書き出せば、好きな画像をブロック崩しのマトにできそうなので、技術と時間が追いついたら作ってみようと思います。
+
+                <div class="used">
+                    使ったもの...
+                    <ul>
+                        <li>GIMP</li>
+                        <li>p5.js</li>
+                        <li>p5.play.js</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="fukidashiWrapper">
+
+                <div>
+                    <img src="images/fukidashi.png" class="fukidashi">
+                    <p class="hideMessage">▼説明を表示</p>
+
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <script src="myscript.js"></script>
+        <p>©︎ 2019 YUDAI KOSHINO</p>
+    </footer>
+</body>
+</html>
