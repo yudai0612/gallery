@@ -1,0 +1,55 @@
+.clear {
+  clear: left; }
+
+body {
+  margin: 0 100px;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif; }
+  body header {
+    width: 600px;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: dashed 1px rgba(0, 0, 0, 0.3);
+    padding: 0 10px; }
+    body header .homeBtn {
+      height: 30px;
+      margin: 10px;
+      opacity: 0.8;
+      float: left; }
+      body header .homeBtn:hover {
+        opacity: 1; }
+  body .wrapper {
+    width: 500px;
+    margin: 20px auto;
+    opacity: 0.8;
+    min-height: calc(100vh - 110px); }
+    body .wrapper .container {
+      width: 100%;
+      margin: 50px auto; }
+      body .wrapper .container #container0 {
+        width: 400px;
+        margin: 0 auto; }
+        body .wrapper .container #container0 #defaultCanvas0 {
+          margin: 0 auto;
+          opacity: 0.6; }
+    body .wrapper ul {
+      list-style: none; }
+      body .wrapper ul a {
+        text-decoration: none;
+        line-height: 50px;
+        padding: 0 25px;
+        color: black;
+        opacity: 0.5;
+        font-family: "Sawarabi Mincho";
+        font-size: 12px; }
+        body .wrapper ul a:hover {
+          opacity: 1; }
+  body footer {
+    width: 600px;
+    border-top: dashed 1px rgba(0, 0, 0, 0.3);
+    margin: 0 auto; }
+    body footer p {
+      color: rgba(0, 0, 0, 0.3);
+      font-size: 2px;
+      margin: 20px; }
+
+/*# sourceMappingURL=stylesheet.css.map */
